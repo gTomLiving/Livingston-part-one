@@ -1,0 +1,141 @@
+body {
+    background-color: white;
+    font-family: 'Bungee', cursive;
+    font-size: .70em;
+    margin: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#navbar {
+    
+    height: 100%;
+}
+.ccc-img {
+    height: auto;
+    width: 30%;
+    margin:  auto auto auto 5px;
+}
+ ul {
+    list-style-type: none;
+    margin: 20px 10px auto auto;
+    padding: 0; 
+    overflow: hidden;
+    float: right;
+ 
+}
+li {
+    display: inline;
+    float: left;
+}    
+li a {
+    display: block;
+    text-align: center;
+    padding-left:  20px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #10fdff;
+  }
+
+#about-section {
+    background-color: #ff00ff;
+  
+    margin-top: 5px;
+    margin-bottom: 10px;
+    height: 250px;
+    
+}
+.food-truck {
+  
+    width: 50%;
+    height: 50%;
+    margin: 5% auto auto 30%;
+    
+  
+   
+}
+h1.about-writing {
+    
+    top: 60%;
+    margin: auto 10px;
+}
+p.about-writing {
+   
+    top: 67%;
+    padding: 0;
+    margin: auto 10px;
+    
+}
+#image-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around  ;
+}
+.img-size {
+    height: 100%;
+    width: 100%;
+}
+.img-box {
+    border: solid 4px;
+    border-color: #7944e6;
+    margin: 5px 75px 15px 75px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+@media screen and (min-width: 768px) {
+    body {
+        background-color: white;
+        font-size: 1.5em;
+    }
+    ul {
+        margin: 100px 15px auto auto;
+    }
+    li a {
+        padding-left: 75px;
+    }
+    #about-section {
+
+        height: 300px;
+        text-align: left;
+
+    }
+    img.food-truck {
+        width: 55%;
+        height: 80%;
+        float: left;
+        margin: auto;
+        margin-top: 2%;
+        
+        
+    }
+    .about-writing {
+        padding-top: 50px;
+    
+    }
+    #image-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        
+    }
+    .img-size {
+        height: 325px;
+        width: 300px;
+    }
+    .img-box {
+        border: solid 4px;
+        border-color: #7944e6;
+        text-align: center;
+        width: fit-content;
+        height: fit-content;
+        
+    }
+    
+
+
+}
